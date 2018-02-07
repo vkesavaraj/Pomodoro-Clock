@@ -1,0 +1,96 @@
+body {
+  background: #333333;
+  color: white;
+}
+
+header {
+  text-align: center;
+  font-family: "Pacifico", cursive;
+  color: #d8412c;
+}
+header h1 {
+  font-size: 50px;
+}
+
+#setTime {
+  padding: 5px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 400px;
+}
+
+.manipulator {
+  display: flex;
+  justify-content: space-between;
+}
+
+#bigCircle {
+  position: relative;
+  margin: auto;
+  margin-top: 25px;
+  height: 450px;
+  width: 450px;
+  background: #333333;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px 3px #99CC00 inset, 0px 0px 10px 1px black inset;
+}
+
+#smallCircle {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  height: 430px;
+  width: 430px;
+  background: #333333;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px 1px black;
+}
+
+.timer {
+  position: absolute;
+  text-align: center;
+  margin: 110px 25px;
+  font-size: 150px;
+  color: #bbb;
+  text-shadow: 5px 5px 5px black;
+}
+
+.button {
+  text-align: center;
+  padding: 4px;
+  display: inline-block;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.5), 1px 1px 5px 1px rgba(0, 0, 0, 0.5), 1px 1px 5px 1px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  width: 30px;
+  height: 30px;
+}
+.button:hover {
+  cursor: pointer;
+}
+.button:active {
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5) inset;
+}
+
+.time {
+  font-size: 25px;
+  margin: auto 15px;
+}
+
+#control {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px auto;
+  font-size: 20px;
+}
+
+#start {
+  width: 100px;
+  height: 40px;
+}
+
+#reset {
+  width: 100px;
+  height: 40px;
+}
